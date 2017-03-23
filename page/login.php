@@ -86,7 +86,7 @@
 </html>
 </div>
 </div>
-<h2>Arhiiv</h2>
+<h2>Tanklad</h2>
 
 <?php 
 	

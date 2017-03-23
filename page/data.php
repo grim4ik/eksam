@@ -98,28 +98,27 @@
 	
 	<label>Tankla nimi</label><br>
 	<input class="form-control" name="tn_nimi" type="text">
-	<br><br>
+	<br>
 	
 	<label>Tankla vanus</label><br>
 	<input class="form-control" name="tn_vanus" type="text">
 	
-	<br><br>
+	<br>
 	<label>Tankla adress</label><br>
 	<textarea rows="3" class="form-control" name="tn_kirjeldus" type="text"></textarea>
 	
-	<br><br>
+	<br>
 	<label>Hind 95</label><br>
 	<input class="form-control" name="tn_95" type="text">
 	
-    <br><br>
+    <br>
 	<label>Hind 98</label><br>
 	<input class="form-control" name="tn_98" type="text">
 	
-    <br><br>
+    <br>
 	<label>Hind Diisel</label><br>
 	<input class="form-control" name="tn_diisel" type="text">
 	
-    <br><br>
 	
 	<br><br>
 	
@@ -129,11 +128,8 @@
 </div>
 
 <div class="col-sm-4 col-md-3">
-<h2>Arhiiv</h2>
 
 <form>
-	<input class="form-control" type="search" name="q" value="<?=$q;?>"><br>
-	<input class="btn btn-primary btn-sm hidden-xs" type="submit" value="Otsi">
 </form>
 </div>
 
