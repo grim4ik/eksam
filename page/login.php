@@ -196,7 +196,21 @@
 							Hind 98
 						</a>
 					 </th>";
-
+					 
+			$ordertn_diisel = "ASC";
+			if (isset($_GET["order"]) && 
+				$_GET["order"] == "ASC" &&
+				$_GET["sort"] == "tn_diisel" ) {
+					
+				$ordertn_diisel = "DESC";
+			}
+		
+			$html .= "<th>
+						<a href='?q=".$q."&sort=tn_98&order=".$ordertn_diisel."'>
+							Hind Diisel
+						</a>
+					 </th>";
+					 
 		
 		
 		//iga liikme kohta massiivis
@@ -210,6 +224,7 @@
 				$html .= "<td>".$p->tn_kirjeldus."</td>";
 				$html .= "<td>".$p->tn_95."</td>";
 				$html .= "<td>".$p->tn_98."</td>";
+				$html .= "<td>".$p->tn_diisel."</td>";
 			$html .= "</tr>";
 		
 		}
